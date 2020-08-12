@@ -1,5 +1,4 @@
 // This program connects DHT sensor on pin 14 and push data to firebase
-// the data from firebase can be displayed on Android app
 
 #include <FirebaseArduino.h>
 #include "DHT.h"

@@ -1,0 +1,30 @@
+In this session we will discuss about shell scripting or in simple words shell programming. Before starting Shell Scripting we quickly revise three terms : Kernel, Shell, Terminal.
+
+* The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system. It basic operations can be summarized as : File management, Process management, I/O management, Memory management, Device management etc.
+
+* Shell is special user program which provide an interface to user to use operating system services. Shell accept human readable commands from user and convert them into something which kernel can understand. It is a command language interpreter that execute commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.Shell is broadly classified into two categories –
+--Command Line Shell : accessed by user using a command line interface.user open terminal to run command like ls, cp, cd, ls, etc.
+--Graphical shell : GUI shell
+
+There are several shells are available for Linux systems like –
+
+BASH (Bourne Again SHell) – It is most widely used shell in Linux systems. It is used as default login shell in Linux systems and in macOS. It can also be installed on Windows OS.
+CSH (C SHell) – The C shell’s syntax and usage are very similar to the C programming language.
+KSH (Korn SHell) – The Korn Shell also was the base for the POSIX Shell standard specifications etc.
+
+Shell Scripting :
+As shell can also take commands as input from file we can write these commands in a file and can execute them in shell to avoid this repetitive work. These files are called Shell Scripts or Shell Programs. Shell scripts are similar to the batch file in MS-DOS. Each shell script is saved with .sh file extension eg. myscript.sh
+A shell script have syntax just like any other programming language. A shell script comprises following elements –
+
+Shell Keywords – if, else, break etc.
+Shell commands – cd, ls, echo, pwd, touch etc.
+Functions
+Control flow – if..then..else, case and shell loops etc.
+
+Running hello world program :
+open terminal > create new file named first
+file contains single line
+echo "hello world "
+save the file and run on terminal with command
+sh first
+* screen shot attached
